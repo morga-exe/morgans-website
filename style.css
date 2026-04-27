@@ -1,0 +1,64 @@
+
+/*hex code*/
+body {
+  background-color:#1a2225
+   
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  color:#800000
+}
+/*hex code */
+p {
+  color:#FF0000;
+}
+/*class selector*/
+.truck{color:blue:}
+{text-decoration: underline}
+
+
+/* Reset default margins */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fixed top navigation bar */
+top-bar {
+    position: fixed;       /* Stays at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;         /* Stays above other elements */
+}
+
+/* Button styling */
+top-bar button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+top-bar button:hover {
+    background-color: #45a049;
+}
+
+/* Page content padding so it doesn't hide under the fixed bar */
+content {
+    padding-top: 60px;
+}
+
+center-text {
+    text-align: center; /* Centers text horizontally */
+}
+  
+
