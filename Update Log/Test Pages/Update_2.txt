@@ -1,0 +1,5 @@
+Test Pages Update 2 Changelog
+
+-New button style added
+-Buttons now do not have drop down
+-Original homepage look
