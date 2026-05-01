@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hidden Button Example</title>
+<style>
+    /* Style for the hidden button */
+    #hiddenBtn {
+        position: fixed;       /* Sticks to the viewport */
+        bottom: 20px;          /* 20px from bottom */
+        left: 20px;            /* 20px from left */
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none;         /* Initially hidden */
+        z-index: 1000;         /* Ensure it stays on top */
+    }
+
+    #hiddenBtn:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+
+<h1>Example Page</h1>
+<p>Scroll down or click the button below to reveal the hidden button.</p>
+
+<!-- Hidden button -->
+<button id="hiddenBtn">Click Me</button>
+
+<!-- Show button trigger -->
+<button onclick="showButton()">Show Hidden Button</button>
+
+<script>
+    function showButton() {
+        document.getElementById('hiddenBtn').style.display = 'block';
+    }
+</script>
+
+</body>
+</html>

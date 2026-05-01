@@ -140,8 +140,8 @@
     </div>
     <button class="dropbtn">Test</button>
         <div class="dropdown-content">
-            <a href="testhome.html">Home</a>
-            <!--a href="jellyfin_server.html">Jellyfin Server</a-->    
+            <a href="projects_home.html">Projects Home</a>
+            <a href="jellyfin_server.html">Jellyfin Server</a>    
 </div>
 <!-- Fixed top bar with two buttons -->
 <!--div class="top-bar">
@@ -163,6 +163,17 @@
 <div>
     <p></p>
 </div>
+<!-- Hidden button -->
+<button id="hiddenBtn">Click Me</button>
+
+<!-- Show button trigger -->
+<button onclick="showButton()">Show Hidden Button</button>
+
+<script>
+    function showButton() {
+        document.getElementById('hiddenBtn').style.display = 'block';
+    }
+</script>
 
 </body>
 </html>
