@@ -1,29 +1,33 @@
 
 /*hex code*/
 body {
-  background-color:#1a2225
+    background-color:#1a2225
+    margin: 0;
+    font-family: Arial, sans-serif;
    
 }
 
 h1 {
-  font-family: "Merriweather", serif;
-  font-size: 32px;
-  color:#800000
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    color:#800000
+}
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    color:#800000
 }
 /*hex code */
 p {
-  color:#FF0000;
+    color:#FF0000;
 }
 /*class selector*/
-.truck{color:blue:}
+/*truck{
+    color:blue:}
 {text-decoration: underline}
 
 
 /* Reset default margins */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 /* Fixed top navigation bar */
 top-bar {
@@ -60,5 +64,5 @@ content {
 center-text {
     text-align: center; /* Centers text horizontally */
 }
-  
+
 
