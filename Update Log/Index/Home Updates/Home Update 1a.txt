@@ -1,4 +1,5 @@
-Home Update 1a Log
+Home Update 1b Log
 
 -Test Button added for Test pages.
 -Test button sub button "Jellyfin Server" removed
+-Home Update 1b Log added
