@@ -2,10 +2,10 @@
 header("Content-Type: application/json");
 
 // Database credentials
-$host = "localhost"; // or your DB host
+$host = "MySQL80"; // or your DB host
 $dbname = "contact_db";
 $username = "root"; // your MySQL username
-$password = "";     // your MySQL password
+$password = "Morgan.exe101_SQL";     // your MySQL password
 
 try {
     // Connect to MySQL
